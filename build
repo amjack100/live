@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+
+if g++ ./ui.cpp ./argparse.cpp ./svgbuilder.cpp ./main.cpp  -std="c++17" -o live;then
+  install ./live ~/.local/bin
+fi
+
+
+

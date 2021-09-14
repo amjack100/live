@@ -1,0 +1,6 @@
+#TYPE
+$basename ./file.txt .txt
+###
+#PRINT
+file
+###
