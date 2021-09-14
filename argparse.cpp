@@ -137,14 +137,6 @@ void ArgParser::show_help() {
 
     cout << endl;
   }
-
-  cout << "#TYPE\n"
-       << ".....\n"
-       << ".....\n"
-       << "###\n"
-       << "#PRINT\n"
-       << ".....\n"
-       << ".....\n";
 }
 
 ConfigParser::ConfigParser(string filepath) {
@@ -165,5 +157,3 @@ ConfigParser::ConfigParser(string filepath) {
     cout << value << endl;
   }
 }
-
-string ConfigParser::get(const string &option) { return "asdf"; }
